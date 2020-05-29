@@ -11,12 +11,34 @@
 
     <artifactId>user-consumer</artifactId>
 
+    <properties>
+        <hutool.version>4.5.7</hutool.version>
+    </properties>
+
     <dependencies>
+
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>security-acl</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>${hutool.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <build>

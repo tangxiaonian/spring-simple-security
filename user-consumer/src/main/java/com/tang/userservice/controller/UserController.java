@@ -32,10 +32,13 @@ public class UserController {
         return map;
     }
 
+    @ApiOperation("用户登录")
     @PostMapping("/login")
     public R login(String username,String password) {
 
         System.out.println( "username=====>" + username + "    password====>" + password );
+
+        int i = 1 / 0;
 
         UserDetails userDetails = userServiceImpl.login(username, password);
 
