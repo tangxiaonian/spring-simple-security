@@ -25,6 +25,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
+                    <classifier>exec</classifier>
                     <mainClass>com.tang.order.consumer.SpringOrderApplication</mainClass>
                 </configuration>
             </plugin>

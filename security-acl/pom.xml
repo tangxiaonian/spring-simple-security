@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>security-acl</artifactId>
-    <packaging>jar</packaging>
+    <version>${parent.version}</version>
 
     <dependencies>
         <dependency>
@@ -47,6 +47,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
+                    <classifier>exec</classifier>
                     <mainClass>com.tang.spring_security.SpringSecurityApplication</mainClass>
                 </configuration>
             </plugin>

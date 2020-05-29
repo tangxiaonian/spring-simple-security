@@ -1,0 +1,3 @@
+com\tang\order\consumer\controller\OrderController.class
+com\tang\order\consumer\config\SwaggerConfig.class
+com\tang\order\consumer\SpringOrderApplication.class
